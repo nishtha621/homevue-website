@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HomeVue Support</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">HomeVue Support</div>
+      <div class="nav-links">
+        <a href="#getting-started">Getting Started</a>
+        <a href="#faq">FAQ</a>
+        <a href="#troubleshooting">Troubleshooting</a>
+        <a href="#contact">Contact Us</a>
+        <a href="../index.html" class="home-link">Back to Home</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>How Can We Help?</h1>
+      <p>Find answers, troubleshoot issues, and get the support you need</p>
+      <!-- <div class="search-container">
+        <input type="text" placeholder="Search for help topics..." class="search-input">
+        <button class="search-button">
+          <i data-lucide="search" class="search-icon"></i>
+        </button>
+      </div> -->
+      <div class="features-grid">
+        <div class="feature-card">
+          <i data-lucide="book-open" class="icon"></i>
+          <h3>Documentation</h3>
+          <p>Comprehensive guides for all HomeVue features</p>
+          <div class="glow-effect"></div>
+        </div>
+        <!-- <div class="feature-card">
+          <i data-lucide="message-circle" class="icon"></i>
+          <h3>Community</h3>
+          <p>Connect with other users and share design tips</p>
+          <div class="glow-effect"></div>
+        </div> -->
+        <div class="feature-card">
+          <i data-lucide="headphones" class="icon"></i>
+          <h3>Live Support</h3>
+          <p>Get help from our dedicated support team</p>
+          <div class="glow-effect"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support Content Section -->
+  <section class="support-content">
+    <div class="support-wrapper">
+      <div id="getting-started" class="support-block fade-in">
+        <h2>Getting Started with HomeVue</h2>
+        
+        <div class="support-card">
+          <div class="card-header">
+            <i data-lucide="download" class="card-icon"></i>
+            <h3>Installation Guide</h3>
+          </div>
+          <div class="card-content">
+            <p>Follow these steps to install HomeVue on your device:</p>
+            <ol>
+              <li>Visit the App Store </li>
+              <li>Search for "HomeVue AR Interior Design"</li>
+              <li>Tap "Install" or "Get" to download the application</li>
+              <li>Once installed, open the app and follow the on-screen setup instructions</li>
+              <li>Grant necessary permissions for camera and storage access</li>
+            </ol>
+            <div class="tip-box">
+              <i data-lucide="lightbulb" class="tip-icon"></i>
+              <p><strong>Tip:</strong> For optimal performance, ensure your device has at least 2GB of RAM and runs iOS 13+ or Android 9.0+.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="support-card">
+          <div class="card-header">
+            <i data-lucide="scan" class="card-icon"></i>
+            <h3>Room Scanning Tutorial</h3>
+          </div>
+          <div class="card-content">
+            <p>To get the most accurate results when scanning your room:</p>
+            <ul>
+              <li>Ensure good lighting conditions in the room</li>
+              <li>Remove small obstacles from the floor</li>
+              <li>Start in one corner and slowly move around the perimeter</li>
+              <li>Hold your device at waist height for best results</li>
+              <li>Make sure to capture all walls, floors, and major furniture</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="support-card">
+          <div class="card-header">
+            <i data-lucide="layout" class="card-icon"></i>
+            <h3>Using the Design Tools</h3>
+          </div>
+          <div class="card-content">
+            <p>HomeVue offers powerful design tools to transform your space:</p>
+            <ul>
+              <li><strong>Furniture Catalog:</strong> Browse thousands of 3D furniture models</li>
+              <li><strong>Drag & Place:</strong> Simply drag items into your room view</li>
+              <li><strong>Rotate:</strong> Use pinch and twist gestures to adjust items</li>
+              <li><strong>Save Designs:</strong> Create multiple design variations for comparison</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="faq" class="support-block fade-in">
+        <h2>Frequently Asked Questions</h2>
+        
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+                Which iOS devices are compatible with HomeVue?
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+                <p>HomeVue is designed exclusively for iOS devices running iOS 15 or later. For the best experience, we recommend using devices with LiDAR sensors, which include:</p>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+                Why does HomeVue require LiDAR technology?
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+                <p>HomeVue leverages Apple's LiDAR (Light Detection and Ranging) technology to create highly accurate 3D scans of your space. LiDAR sensors measure the distance to objects with precision, allowing for:</p>
+                <ul>
+                  <li>Millimeter-accurate room measurements</li>
+                  <li>Instant room recognition and scanning</li>
+                  <li>Realistic furniture placement with proper scaling</li>
+                  <li>Better performance in low-light conditions</li>
+                  <li>More stable AR experiences with less drift</li>
+                </ul>
+                <p>While basic functionality may work on non-LiDAR iOS devices, we strongly recommend using LiDAR-equipped devices for the full HomeVue experience.</p>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+              How accurate are the room measurements?
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <p>HomeVue's room measurements are typically accurate within 1-2 inches (2-5 cm). Factors that can affect accuracy include lighting conditions, room complexity, and how thoroughly you scan the space. For professional-grade measurements, we recommend verifying with a physical measuring tape.</p>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Can I share my designs with others?
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <p>Yes! HomeVue allows you to share your designs in several ways:
+                <ul>
+                  <li>Export as high-resolution images</li>
+                  <li>Generate shareable links (requires account)</li>
+                  <li>Direct sharing to social media platforms</li>
+                  <li>Export detailed product lists for purchasing</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Is my room data private and secure?
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <p>Yes, your privacy is our priority. Room scan data is stored locally on your device by default. If you choose to save designs to the cloud (with an account), all data is encrypted during transfer and storage. We never share your room data with third parties without your explicit consent. See our <a href="../privacy/privacy.html">Privacy Policy</a> for more details.</p>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Do I need to create an account to use HomeVue?
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-content">
+              <p>No, you can use HomeVue's core features without creating an account. However, creating a free account gives you additional benefits:
+                <ul>
+                  <li>Cloud backup of your designs</li>
+                  <li>Access to your designs across multiple devices</li>
+                  <li>Ability to share designs via links</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="troubleshooting" class="support-block fade-in">
+        <h2>Troubleshooting Common Issues</h2>
+        
+        <div class="support-card">
+          <div class="card-header">
+            <i data-lucide="alert-triangle" class="card-icon"></i>
+            <h3>AR Not Working Properly</h3>
+          </div>
+          <div class="card-content">
+            <p>If you're experiencing issues with AR functionality:</p>
+            <ol>
+              <li>Ensure you have adequate lighting in the room</li>
+              <li>Check that your device supports AR </li>
+              <li>Restart the app and try scanning again</li>
+              <li>Make sure your camera lens is clean and unobstructed</li>
+              <li>Update to the latest version of HomeVue</li>
+              <li>Try scanning a room with more distinct features and textures</li>
+            </ol>
+          </div>
+        </div>
+        
+        <div class="support-card">
+          <div class="card-header">
+            <i data-lucide="battery-low" class="card-icon"></i>
+            <h3>Battery Drain Issues</h3>
+          </div>
+          <div class="card-content">
+            <p>AR applications like HomeVue can be resource-intensive. To minimize battery drain:</p>
+            <ul>
+              <li>Close other apps running in the background</li>
+              <li>Reduce screen brightness when using the app</li>
+              <li>Use the "Low Power Mode" in settings for longer scanning sessions</li>
+              <li>Save your progress frequently and close the app when not in use</li>
+              <li>Consider using a power bank for extended design sessions</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="support-card">
+          <div class="card-header">
+            <i data-lucide="loader" class="card-icon"></i>
+            <h3>App Performance Issues</h3>
+          </div>
+          <div class="card-content">
+            <p>If you notice lag or crashes:</p>
+            <ol>
+              <li>Clear the app cache (Settings > Apps > HomeVue > Storage > Clear Cache)</li>
+              <li>Restart your device</li>
+              <li>Ensure you have at least 1GB of free storage space</li>
+              <li>Update to the latest version of the app</li>
+              <li>For persistent issues, try uninstalling and reinstalling the app</li>
+            </ol>
+            <div class="tip-box">
+              <i data-lucide="lightbulb" class="tip-icon"></i>
+              <p><strong>Note:</strong> Reinstalling will delete local data unless you've backed up to the cloud with an account.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="support-block fade-in">
+        <h2>Contact Support</h2>
+        
+        <div class="contact-options">
+          <div class="contact-card">
+            <i data-lucide="mail" class="contact-icon"></i>
+            <h3>Email Support</h3>
+            <p>Get a response within 24 hours</p>
+            <a href="mailto:support@homevue.com" class="contact-button">support@homevue.com</a>
+          </div>
+          
+          <div class="contact-card">
+            <i data-lucide="message-square" class="contact-icon"></i>
+            <h3>Live Chat</h3>
+            <p>Available 9am-5pm EST, Mon-Fri</p>
+            <button class="contact-button">Start Chat</button>
+          </div>
+          
+          <div class="contact-card">
+            <i data-lucide="phone" class="contact-icon"></i>
+            <h3>Phone Support</h3>
+            <p>For urgent issues</p>
+            <a href="tel:+18005551234" class="contact-button">1-800-555-1234</a>
+          </div>
+        </div>
+        
+        <div class="support-form">
+          <h3>Send Us a Message</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="Enter your email">
+            </div>
+            
+            <div class="form-group">
+              <label for="issue">Issue Type</label>
+              <select id="issue">
+                <option value="">Select an issue type</option>
+                <option value="technical">Technical Problem</option>
+                <option value="account">Account Issue</option>
+                <option value="billing">Billing Question</option>
+                <option value="feature">Feature Request</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Describe your issue in detail"></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Submit Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <!-- <section class="cta-section">
+    <div class="cta-content">
+      <h2>Join Our Community</h2>
+      <p>Connect with other HomeVue users, share design ideas, and get inspired.</p>
+      <div class="social-buttons">
+        <a href="#" class="social-button">
+          <i data-lucide="facebook" class="social-icon"></i>
+          Facebook Group
+        </a>
+        <a href="#" class="social-button">
+          <i data-lucide="instagram" class="social-icon"></i>
+          Instagram
+        </a>
+        <a href="#" class="social-button">
+          <i data-lucide="youtube" class="social-icon"></i>
+          YouTube Tutorials
+        </a>
+      </div>
+    </div>
+  </section> -->
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2023 HomeVue. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="../index.html">Home</a>
+        <a href="../privacy/privacy.html">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Move EmailJS script before your other scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    // Initialize Lucide icons
+lucide.createIcons();
+
+// Accordion functionality
+document.querySelectorAll('.accordion-header').forEach(button => {
+  button.addEventListener('click', () => {
+    const accordionItem = button.parentNode;
+    accordionItem.classList.toggle('active');
+
+    // Update icon
+    const icon = button.querySelector('.accordion-icon');
+    if (accordionItem.classList.contains('active')) {
+      icon.setAttribute('data-lucide', 'chevron-up');
+    } else {
+      icon.setAttribute('data-lucide', 'chevron-down');
+    }
+    lucide.createIcons();
+  });
+});
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+// Reveal animations on scroll
+const observerOptions = {
+  threshold: 0.1
+};
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, observerOptions);
+
+document.querySelectorAll('.support-block').forEach(block => {
+  observer.observe(block);
+});
+
+// --- EmailJS Initialization and Support Form Submission ---
+(function() {
+  // Initialize EmailJS
+  emailjs.init("YOUR_PUBLIC_KEY"); // <-- Replace with your real EmailJS public key
+
+  // Function to collect form data and send email
+  function sendSupportRequest(event) {
+    event.preventDefault(); // Prevent default form submit
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const issue = document.getElementById('issue').value;
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !issue || !message) {
+      alert('Please fill in all fields.');
+      return;
+    }
+
+    // Show loading state
+    const submitButton = document.querySelector('.submit-button');
+    submitButton.textContent = 'Sending...';
+    submitButton.disabled = true;
+
+    // Prepare the email template parameters
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      issue_type: issue,
+      message_content: message,
+      to_email: 'aman1246.be22@chitkara.edu.in'
+    };
+
+    // Send email
+    emailjs.send('service_kpsoz1c', 'template_your_actual_template', templateParams)
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Your request has been sent successfully!');
+        document.querySelector('.support-form form').reset();
+      })
+      .catch(function(error) {
+        console.log('FAILED...', error);
+        alert('Failed to send request. Please try again later.');
+      })
+      .finally(function() {
+        submitButton.textContent = 'Submit Request';
+        submitButton.disabled = false;
+      });
+  }
+
+  // Attach event listener to form submit
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('.support-form form');
+    form.addEventListener('submit', sendSupportRequest);
+  });
+})(); // <-- Correct closure of the IIFE (Immediately Invoked Function Expression)
+
+    </script>
+    </body>
+    </html>
