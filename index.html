@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HomeVue - Transform Your Space</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NavBar -->
+<nav class="navbar">
+  <div class="container nav-content">
+    <div class="logo">HomeVue</div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#team">Team</a>
+      <a href="#faq">FAQ</a>
+      <button class="btn-primary">Download App</button>
+    </div>
+  </div>
+  <div class="scroll-indicator"></div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="hero-background">
+    <div class="dot-grid"></div>
+    <div class="hero-3d-container">
+      <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.87/build/spline-viewer.js"></script>
+      <spline-viewer url="https://prod.spline.design/cTyjmdkfxmhZJNyn/scene.splinecode" loading-anim="true" events-target="global"></spline-viewer>
+    </div>
+  </div>
+  
+  <div class="container hero-container">
+    <div class="hero-content">
+      <h1>Transform<br>Your Space</h1>
+      <div class="hero-tags">
+        <span>AR</span>
+        <span>VR</span>
+        <span>SwiftUI</span>
+        <span>3D Model</span>
+      </div>
+    </div>
+    
+    <div class="hero-side-content">
+      <p>Experience the future of interior design with HomeVue's AR technology</p>
+      <div class="hero-buttons">
+        <button class="btn-outline"onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">Learn more</button>
+        <button class="btn-primary">Download App <span class="plus-icon">+</span></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Features -->
+<section id="features" class="section">
+  <div class="container">
+    <h2 class="section-title">Features</h2>
+    <div class="features-grid" id="features-list">
+      <!-- JS will inject cards here -->
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section id="team" class="section">
+  <div class="container">
+    <h2 class="section-title">Meet Our Team</h2>
+    <div class="team-grid" id="team-list">
+      <!-- JS will inject team cards here -->
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-list" id="faq-list">
+      <!-- JS will inject accordion items here -->
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-column">
+      <h3>HomeVue</h3>
+      <p>Transform your space with augmented reality interior design.</p>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <p>support@homevue.dev</p>
+    </div>
+    <div class="footer-column">
+      <h4>Legal</h4>
+      <a href="#">Privacy Policy</a><br>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 HomeVue. All rights reserved.
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
