@@ -184,6 +184,8 @@ h1, h2, h3 {
 
 .features-grid {
   margin-top: 4rem;
+  margin-left: 70px;
+  margin-right: 70px;
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

@@ -3,22 +3,21 @@ const features = [
   { title: "Room Scanning", description: "Scan your room using cutting-edge AR technology to create accurate digital representations of your space.", icon: "data-collection.gif" },
   { title: "Multi-Object Placement", description: "Place multiple furniture pieces simultaneously to create complete room layouts.", icon: "3d-cube.gif" },
   { title: "Real-World Accuracy", description: "Experience realistic furniture placement with advanced occlusion technology.", icon: "accurate.gif" },
-  { title: "Prebuilt Rooms", description: "Save and revisit your favorite room designs anytime.", icon: "save.gif" },
+  { title: "Save Rooms", description: "Save and revisit your favorite room designs anytime.", icon: "save.gif" },
   { title: "Design Sharing", description: "Share your room designs with friends, family, or professional designers.", icon: "share.gif" },
-  { title: "Furniture Catalog", description: "Browse through an extensive collection of furniture models organized by category.", icon: "model.gif" },
+  { title: "Furniture Catalog", description: "Browse through collection of furniture models organized by category.", icon: "model.gif" },
 ];
 
 const team = [
   { name: "Nishtha Tandon", role: "Lead Developer", email: "nishtha@homevue.dev", linkedin: "#" },
   { name: "Bhumi Garg", role: "AR Technology Lead", email: "bhumi@homevue.dev", linkedin: "#" },
   { name: "Aman Prasad", role: "UI/UX Developer", email: "aman@homevue.dev", linkedin: "#" },
-  { name: "Aditya Prasad", role: "Backend Developer", email: "aditya@homevue.dev", linkedin: "#" },
 ];
 
 const faqs = [
-  { question: "What devices are compatible with HomeVue?", answer: "HomeVue requires iOS 15.0 or later and is compatible with iPhone and iPad devices that support ARKit. Enhanced features are available for LiDAR-equipped devices." },
+  { question: "What devices are compatible with HomeVue?", answer: "HomeVue requires iOS 16.0 or later and is compatible with LiDAR-equipped devices." },
   { question: "Is HomeVue free to use?", answer: "Yes, HomeVue is completely free to use with no in-app purchases required." },
-  { question: "Can I save my room designs?", answer: "Yes, you can save multiple room designs as 'Prebuilt Rooms' and access them anytime within the app." },
+  { question: "Can I save my room designs?", answer: "Yes, you can save multiple room designs as and access them anytime within the app." },
   { question: "How accurate is the AR furniture placement?", answer: "HomeVue uses advanced AR technology and LiDAR (when available) to ensure highly accurate furniture placement and scaling in your space." }
 ];
 

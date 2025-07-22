@@ -12,7 +12,7 @@
   <!-- Navbar -->
   <nav class="navbar">
     <div class="nav-container">
-      <div class="logo">HomeVue Privacy</div>
+      <div class="logo">HomeVue</div>
       <div class="nav-links">
         <a href="#data-collection">Data Collection</a>
         <a href="#data-usage">Data Usage</a>
@@ -33,17 +33,12 @@
         <div class="feature-card">
           <i data-lucide="shield" class="icon"></i>
           <h3>Secure Data</h3>
-          <p>Your room data is encrypted and stored securely</p>
+          <p>Your room data is stored locally on your device</p>
         </div>
         <div class="feature-card">
           <i data-lucide="lock" class="icon"></i>
           <h3>Local Processing</h3>
           <p>AR processing happens locally on your device</p>
-        </div>
-        <div class="feature-card">
-          <i data-lucide="eye" class="icon"></i>
-          <h3>Your Control</h3>
-          <p>Full control over your data and privacy settings</p>
         </div>
       </div>
     </div>
@@ -53,27 +48,26 @@
   <section class="privacy-content">
     <div class="privacy-wrapper">
       <h2 class="policy-title">Privacy Policy</h2>
-      <p class="policy-intro">At HomeVue, we take the privacy and security of your data seriously. This Privacy Policy outlines how we collect, use, and safeguard the information we gather from users of our interior design visualization app. By using HomeVue, you agree to the terms and practices described in this policy.</p>
-
-      <div id="data-collection" class="privacy-block fade-in">
-        <h3>1. Data Collection</h3>
-        <p>HomeVue collects the following types of information:</p>
-        <ul>
-          <li><strong>Account Information:</strong> If you choose to create an account, we collect your email address and an encrypted version of your password. You may also provide optional profile information such as your name and design preferences.</li>
-          <li><strong>Room Data:</strong> When you scan a room, we collect spatial mapping data, which includes dimensions and layouts of your space. This information is used to create accurate 3D models for furniture placement and is stored locally on your device only.</li>
-          <li><strong>Device Information:</strong> Basic information about your device type, operating system version, and hardware capabilities is collected to optimize app performance and ensure compatibility.</li>
-          <li><strong>Usage Data:</strong> We collect anonymous, aggregated data about how you use the app, such as which features you access most frequently and general usage patterns. This helps us improve the app's functionality and user experience.</li>
-        </ul>
-        <p>We do not collect or store actual photographic images or videos of your home, though the app requires camera access to function properly. All spatial data is abstracted and does not include identifiable details of your living space beyond what is necessary for the app's core functionality.</p>
+      <p class="policy-intro">At HomeVue, we are committed to protecting your privacy and ensuring the security of your data. This Privacy Policy explains how we collect, use, and protect the information gathered from users of our interior design app. By using HomeVue, you acknowledge and agree to the practices outlined in this policy.</p>
+     <div id="data-collection" class="privacy-block fade-in">
+      <h3>1. Data Collection</h3>
+      <p>HomeVue collects only the necessary information to provide a smooth and personalized experience:</p>
+      <ul>
+        <li><strong>Account Information:</strong> When you create an account, we collect your name, email address, and date of birth. This information helps us personalize your experience and understand the age demographics of our users. Your password is securely stored in encrypted form.</li>
+        <li><strong>Room Data:</strong> When you scan and choose to save a room, the spatial mapping data (such as dimensions and layout) is stored locally on your device. This data is used solely to enable accurate room visualization and furniture placement. We do not collect or store this data on our servers.</li>
+      </ul>
+      <p>HomeVue does <strong>not</strong> collect photographic images or videos of your space. <p>We provide an in-app screenshot feature that allows users to capture their AR layout for personal use. These images are stored locally in Photo Library and are not uploaded, collected, or accessed by us in any way.</p>
+      The app uses your device’s camera strictly for spatial mapping, and no identifiable visual data is stored or transmitted. HomeVue is compatible only with iPhone and iPad models that support LiDAR scanning.</p>
       </div>
+
 
       <div id="data-usage" class="privacy-block fade-in">
         <h3>2. How We Use Your Data</h3>
         <ul>
           <li><strong>Providing Core Services:</strong> We use the collected data primarily to deliver the core functions of HomeVue, including room scanning, furniture placement, and design saving.</li>
           <li><strong>Account Management:</strong> For users with accounts, we use email addresses for authentication, password recovery, and sending important service updates.</li>
-          <li><strong>Design Storage and Sharing:</strong> If you choose to save or share room designs, we store the necessary data to enable these features, including furniture selections, placement coordinates, and room dimensions.</li>
-          <li><strong>App Improvement:</strong> Anonymous usage data helps us understand how people interact with HomeVue, allowing us to enhance existing features and develop new ones based on user needs.</li>
+         <li><strong>Design Storage and Sharing:</strong> Only the room scan data — including spatial layout and dimensions — is saved locally within the app. Furniture placement, textures, and design elements are not stored unless you choose to export the design as a 3D model. Exported files are generated solely for sharing and are not uploaded or stored by us.</li>
+         <li><strong>App Improvement:</strong> All improvements to HomeVue are based on direct user feedback and internal testing — no user behavior is tracked within the app.</li>
         </ul>
       </div>
 
@@ -82,14 +76,14 @@
         <p>HomeVue implements a privacy-focused approach to data storage:</p>
         <ul>
           <li><strong>Local Storage:</strong> All room scan data, including 3D meshes and spatial information, is stored exclusively on your local device. Your room designs, including furniture placement information, are also stored locally.</li>
-          <li><strong>Cloud Storage:</strong> Our furniture 3D models are stored in the cloud and downloaded to your device when needed. If you choose to share a design, only the minimal necessary data about your design is uploaded to our servers to facilitate sharing.</li>
+          <li><strong>Cloud Storage:</strong> Our furniture 3D models are stored in the cloud and downloaded to your device when needed.</li>
           <li><strong>User Account Data:</strong> If you create an account, your authentication information is stored securely in our cloud database. This allows you to access your account across different devices.</li>
         </ul>
       </div>
 
       <div id="camera-access" class="privacy-block fade-in">
         <h3>4. Camera and Photo Library Access</h3>
-        <p>HomeVue requires access to your device's camera to enable AR functionality for scanning rooms and placing furniture. Additionally, the app requests photo library access to save images of your designs when you choose to export them. These permissions are essential for core app functionality but can be managed in your device settings at any time.</p>
+        <p>HomeVue requires access to your device's camera to enable AR functionality for scanning rooms and placing furniture. Additionally, the app requests photo library access to save images of your designs when you take a screenshot. These permissions are essential for core app functionality but can be managed in your device settings at any time.</p>
         <ul>
           <li><strong>Camera Processing:</strong> All camera processing for AR functionality happens locally on your device. Live camera feed is not recorded or transmitted to our servers.</li>
           <li><strong>Photo Saving:</strong> When you choose to save a design image to your photo library, this action occurs locally on your device after you provide explicit permission.</li>
@@ -120,8 +114,7 @@
 
   <footer class="footer">
     <div class="footer-content">
-      <p>&copy; 2023 HomeVue. All rights reserved.</p>
-      <p>Last updated: November 2023</p>
+      <p>&copy; 2025 HomeVue. All rights reserved.</p>
     </div>
   </footer>
 
